@@ -305,6 +305,58 @@ main{
     line-height: 26px;  
 }
 
+.picture-one{
+    position: relative;
+   
+}
+.satorini h1{
+    padding-top: 20px;
+}
+.satorini h5{
+    font-size: 24px;
+    color: #FF5400;
+    padding-top: 15px;
+}
+.satorini p{
+    text-align: left;
+}
+.extra-position img{
+    width: 100%;
+}
+.extra-position{
+    position: relative;
+    padding-top: 30px;
+} 
+.extra-position .different-position{
+    position: absolute;
+    left: 80px;
+    top: 20%;
+}
+.satorini{
+    padding: 30px;
+    position: absolute;
+    max-width: 400px; 
+    border-radius: 16px;
+    border: 2px solid #FFF;
+    background: rgba(255, 255, 255, 0.80);
+    backdrop-filter: blur(2.5px);
+    top: 20%;
+    left: 55%;
+}
+.satorini a { 
+    text-decoration: none;
+    color: #424247;
+}
+.satorini a i{
+    color: #FF5400;
+    padding-left: 10px;
+}
+.picture-one img{
+    padding-top: 30px;
+    width: 100%;
+}
+
+ 
 
 
 
@@ -636,7 +688,9 @@ main{
         padding: 15px 0;    
     }
 
-
+    .satorini{ 
+        display: none;
+    }
 
     .choose-box{
         flex-direction: column;
