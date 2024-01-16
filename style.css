@@ -447,7 +447,82 @@ main{
         width: 100%;
     }
 
-
+    /* contacts section */
+    .contact-us{
+        padding-top: 60px;
+    }
+    .contact-us h2{
+        text-align: center;
+        color: #1d1a1a;
+        font-family: Mulish;
+        font-size: 38px; 
+        font-weight: 800; 
+    }
+    .contact-us p{
+        padding: 16px 0;
+        color: #252121;
+        text-align: center;
+        font-family: Mulish;
+        font-size: 24px; 
+        font-weight: 400;
+    }
+    .contact-box{
+        display: flex;
+        justify-content: space-between;
+        background: #efeff5;
+    }
+    .input-form{
+        width: 50%;
+        padding: 20px 40px;
+    }
+    .input-form input{
+        margin-top: 14px;
+        margin-bottom: 13px;
+        padding: 17px 20px;
+        border: none;
+        outline: none;
+        border-radius: 7px;
+        display: block;
+        width: 100%;
+    }
+    .input-form textarea{
+        width: 100%;
+        padding: 16px 20px;
+        border: none;
+        outline: none;
+    }
+    .input-form button{
+        padding: 10px 25px;
+        background: skyblue;
+        border: none;
+        outline: none;
+        border-radius: 6px;
+        margin-top: 10px;
+    }
+    .contact-text{
+        padding: 20px 30px;
+        width: 50%;
+        background: skyblue;
+        display: flex;
+        flex-direction: column;  
+    }
+    .contact-text .center-al{
+        padding-bottom: 30px;
+        text-align: center;
+    }
+    .contact-text li{  
+        padding-top: 20px ; 
+        list-style: none;
+        font-size: 25px;
+    }
+    .contact-text li a{
+        color: #1d1a1a;
+        text-decoration: none;
+    }
+    .contact-text li a small{
+        font-size: 20px;
+        font-family: cursive;
+    }
     /* footer section  */
     footer{
         right: 0;
@@ -496,6 +571,11 @@ main{
     .menu{    
         display: block;
     } 
+    .home-page{   
+        padding-top: 10px; 
+        height: 70vh;
+         
+    }
     .home-page-content{ 
         padding: 0 20px;
      }
@@ -599,6 +679,15 @@ main{
     }
 
 
+    .contact-box{
+        flex-direction: column; 
+    }
+    .input-form{ 
+        width: 100%; 
+    }
+    .contact-text{
+        width: 100%; 
+    }
     footer{ 
         padding:40px 50px ;
     }
